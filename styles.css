@@ -1,0 +1,172 @@
+/*  ## Colors
+
+- White: hsl(0, 0%, 100%)
+
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Fonts
+
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700
+*/
+@import url("https://fonts.google.com/specimen/Young+Serif");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0.5rem;
+    padding: 0;
+    font-family: 'young serif';
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(30, 10%, 34%);
+    max-width: 100%;
+}
+
+.main-container{
+    background-color: white;
+    border-radius: 20px;
+   width: 500px;
+   margin: 50px auto;
+   overflow: hidden;
+   padding: 20px;
+}
+
+.image-omelette{
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+h1{
+margin-top: 10px;
+color:hsl(24, 5%, 18%) ;
+}
+
+.information{
+    line-height: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.list-items{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px; 
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.time{
+    color:  hsl(332, 51%, 32%);
+}
+
+.lists{
+    padding-left: 20px;
+}
+
+.Ingredients{
+    margin: 20px;
+}
+
+.Ingredients-lists{
+    line-height: 30px;
+    margin: 20px;
+}
+
+.ingredients-heading{
+    font-weight: 900;
+    font-size: 30px;
+    color:hsl(14, 45%, 36%) ;
+}
+
+hr{
+    margin: 20px;
+}
+
+.instructions{
+    margin: 20px;
+}
+
+.intructions-headings{
+    font-weight: 900;
+    font-size: 30px;
+    color:hsl(14, 45%, 36%) ;
+}
+
+.numbered-lists{
+    line-height: 20px;
+    margin: 20px;
+   
+}
+
+.numbered-lists > * {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.nutrition-heading{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color:hsl(14, 45%, 36%) ;
+}
+.nutritional{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+}
+
+th{
+    
+    font-weight: normal;
+    padding-left: 50px;
+}
+td{
+    color:hsl(14, 45%, 36%) ;
+    font-weight: 900;
+}
+
+
+
+.attribution{
+margin-left: 50px;
+color:hsl(24, 5%, 18%) ;
+}
+
+a:visited{
+color: rosybrown;
+}
+a:hover{
+    color:hsl(332, 51%, 32%) ;
+}
